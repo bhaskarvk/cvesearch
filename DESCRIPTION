@@ -1,0 +1,15 @@
+Package: cvesearch
+Type: Package
+Title: R Interface for searching CVEs using API provided by CIRCL.
+Version: 0.1.0
+Authors@R: person("Bhaskar", "Karambelkar", email = "bhaskarvk@gmail.com",
+                  role = c("aut", "cre"))
+Description: R Interface for searching CVEs using API provided by CIRCL.
+URL: https://github.com/bhaskarvk/cvesearch
+BugReports: https://github.com/bhaskarvk/cvesearch/issues
+License: MIT
+LazyData: TRUE
+Imports:
+    request,
+    jsonlite
+RoxygenNote: 5.0.1
